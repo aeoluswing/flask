@@ -14,7 +14,7 @@ This repository is for Docker build by Dockerfile.
 Installing
 ----------
 
-Install and update using `pip`_:
+Install and update using `pip`:
 
     pip install -U Flask
 
