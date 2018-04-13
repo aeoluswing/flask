@@ -158,5 +158,3 @@ fabric.properties
 .gitignore
 .idea/
 python3.6.5-alpine-flask.iml
-python3.6.5-alpine-flask.py
-static/
