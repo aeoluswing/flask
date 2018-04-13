@@ -36,10 +36,16 @@ Log:
 Docker Container
 ----------------
 
-As launching the flask instance via docker container,the container port (5000 by default) should bind to specific 
+As launching the flask instance via docker container,the container port (0.0.0.0:5000 by default) should bind to 
+specific 
 port.For example:  
     
     docker run -it -p 5000:5000 aeoluswing/flask:python3.6.5-alpine
+
+After that,just send a GET request for easytest:
+
+    curl localhost:5000
+
 
 Links
 ----------------
